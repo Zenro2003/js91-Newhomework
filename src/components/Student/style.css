@@ -5,7 +5,7 @@
   }
   
   .student.active {
-    background-color: lightgreen;
+    background-color: blue;
   }
   
   .student.inactive {
