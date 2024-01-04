@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import UserForm from "./components/UserForm";
 import TotalUser from "./components/TotalUser";
+import TodoList from "./components/Todolist";
+
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -17,12 +19,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>User Form</h1>
+        {/* <h1>User Form</h1>
         <UserForm onFormSubmit={handleFormSubmit} />
 
         <h1>Total Users</h1>
-        <TotalUser users={users} />
-        
+        <TotalUser users={users} /> */}
+        <TodoList/>
+
       </header>
     </div>
   );
