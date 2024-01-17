@@ -1,0 +1,145 @@
+.btn-add {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  border-radius: 8px; /* Điều chỉnh giá trị này để làm nét đứt nhiều hay ít hơn */
+  padding: 18px 90px;
+  background-color: rgba(44, 44, 44, 0.1);
+  color: rgb(125, 125, 125);
+  border: 2px dashed rgba(201, 201, 201, 0.4);
+  cursor: pointer;
+  margin-top: 12px;
+}
+.sc-add{
+  color: white;
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+.btn-add:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px dashed rgba(255, 255, 255, 0.4);
+  transition: all 0.01s ease-in-out;
+}
+
+
+
+/* Show add */
+.show-add{
+  width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: left;
+  margin-top: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 3px 6px;
+  animation: 0.1s ease-in-out 0s 1 normal none running expand;
+}
+.add-cm{
+  padding: 10px 20px 0px;
+}
+.add-action{
+  position: relative;
+  padding: 8px 0px 18px;
+}
+.add-inp{
+  padding: 8px 0px;
+}
+.inp-todo{
+  border-radius: 4px;
+  font-size: 22px;
+  padding: 10px 0px;
+  box-shadow: none;
+  border: none;
+  color: rgb(85, 85, 85);
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-style: italic;
+}
+input:focus{
+  outline: none;
+}
+.btn-scd{
+  padding: 14px 20px;
+  text-align: right;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgb(239, 239, 239);
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.btn-delete{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 14px;
+  padding: 8px 12px;
+  min-width: 70px;
+  display: inline-block;
+  margin-right: 14px;
+  background: none;
+  border: none;
+  color: rgb(136, 136, 136);
+  font-weight: bold;
+}
+.cancel-save{
+  display: block;
+}
+
+.btn-cancel{
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 14px;
+  padding: 8px 12px;
+  min-width: 70px;
+  display: inline-block;
+  margin-right: 14px;
+  background: none;
+  border: none;
+  color: rgb(136, 136, 136);
+  font-weight: bold;
+  box-shadow: none;
+}
+.btn-save{
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+  padding: 8px 12px;
+  min-width: 70px;
+  background-color: rgb(34, 34, 34);
+border: 2px solid rgb(34, 34, 34);
+  display: inline-block;
+}
+.hidden {
+  display: none;
+}
+.btn-delete {
+  background-color: #ff0000; /* Màu đỏ hoặc màu khác tùy chọn */
+  color: #fff; /* Màu chữ trắng hoặc màu khác tùy chọn */
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.btn-edit{
+  color: gray;
+}

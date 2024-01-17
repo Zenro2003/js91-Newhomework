@@ -1,0 +1,46 @@
+.header__select {
+  background-color: white;
+  width: 70%;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  padding: 14px 20px;
+  cursor: pointer;
+}
+
+.nav-menu li i {
+  font-size: 20px;
+  padding: 0 20px;
+}
+.nav-menu a{
+  color:inherit;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+
+/* header link */
+.header__select .link{
+  text-decoration: none;
+  padding: 14px 30px;
+}
+.header__select .link-active{
+  color: white;
+  background-color: rgb(218, 18, 18);
+}

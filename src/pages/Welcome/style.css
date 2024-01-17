@@ -1,0 +1,19 @@
+h1{
+    font-size: 34px;
+}
+.heroimage {
+    margin-top: 30px;
+}
+.container {
+    text-align: left;
+    max-width: 620px;
+    margin: auto;
+    padding: 0 12px;
+}
+a {
+    text-decoration: none !important;
+    color: hsl(357, 74%, 67%);
+    color: rgb(186, 73, 73);
+    font-weight: bold;
+    color: hsl(2, 66%, 58%);
+}
