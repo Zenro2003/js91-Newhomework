@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './style.css'; // Import file CSS
 import ThemeContext from '../../context/ThemeContext';
+import { Link } from 'react-router-dom';
 
 
 const TodoItem = ({ todo, onComplete, onDelete, onEdit, onEditTask }) => {
@@ -50,7 +51,7 @@ const TodoItem = ({ todo, onComplete, onDelete, onEdit, onEditTask }) => {
                       </div>
                       <div className='name-todo'>
                         <span className={isChecked ? 'completed' : ''}>
-                          {todo.todo}
+                        <Link to={`/${todo.id}`}>{todo.todo}</Link>
                         </span>
                       </div>
                     </div>

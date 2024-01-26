@@ -24,6 +24,7 @@ const Header = () => {
                 <li>
                     <NavLink className={handleNavLinkClas} to="/myprofile">MyProfile</NavLink>
                 </li>
+                
                 <li onClick={handleThemeChange}>
                     <i className={`fa-solid ${isLightMode ? "fa-sun" : "fa-moon"}`}></i>
                 </li>
