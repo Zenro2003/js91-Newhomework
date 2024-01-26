@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import TodoItem from '../TodoItem';
 import TODOS from '../../data/todos';
 import AddTodo from '../AddTodo';
+
  
 const TodoList = () => {
   const [todos, setTodos] = useState(TODOS);
@@ -39,15 +40,16 @@ const TodoList = () => {
   return (
     <div>
       {todos.map((todo) => (
-        <TodoItem
-          key={todo.id}
-          todo={todo}
-          onComplete={handleComplete}
-          onDelete={handleDelete}
-          onEditTask={handleEdit}
-          todoText={todoText}
-          setTodoText={setTodoText}
-        />
+        
+          <TodoItem
+            todo={todo}
+            onComplete={handleComplete}
+            onDelete={handleDelete}
+            onEditTask={handleEdit}
+            todoText={todoText}
+            setTodoText={setTodoText}
+          />
+       
       ))}
       <AddTodo onAddTask={handleAddTask} />
     </div>
